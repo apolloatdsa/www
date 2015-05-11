@@ -18,8 +18,6 @@ Code was reused from the MDW labs. Factories and http for access to JSON files o
 
 var dataApp = angular.module('dataApp', []) // sets up the module
 	
-	
-	
 
 	dataApp.factory('dataFactory', function($http){ // chains the factory to the app
 		
@@ -27,7 +25,7 @@ var dataApp = angular.module('dataApp', []) // sets up the module
 			
 			getDataAsync: function(callback){
 				$http.get('data.json').success(callback); // provides access to the JSON file 
-				console.log($scope.data);
+				
 				}
 			};
 		
