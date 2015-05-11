@@ -11,7 +11,7 @@
 	  "company": "Brother Hubbard",
 	  "management": false,
 	  "date_joined" : "Apr 20, 2015",
-	  "courses" : "course_1"
+	  "courses" : ["course_1","course_2"]
 	  
     },
     {
@@ -25,7 +25,7 @@
 	  "company": "Sister Hubbard",
 	  "management": false,
 	  "date_joined" : "Apr 23, 2015",
-	  "courses" : "course_1"
+	  "courses" : ["course_1","course_2"]
     }, 
     { 
      "user": "fergus@delaney.ie",
@@ -38,7 +38,7 @@
 	  "company": "Brother Hubbard",
 	  "management": false,
 	  "date_joined" : "Apr 10, 2015",
-	  "courses" : "course_1"
+	  "courses" : ["course_1","course_2"]
     }
     
   	]
