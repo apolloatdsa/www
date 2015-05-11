@@ -2,6 +2,7 @@
   "data": [
     {
       "user": "tom@delaney.ie",
+      "profile": "student",
 	  "firstName": "Tom",
 	  "lastName": "Delaney",
       "active": true,
@@ -16,6 +17,7 @@
     },
     {
      "user": "noel@delaney.ie",
+     "profile": "student",
 	  "firstName": "Noel",
 	  "lastName": "Delaney",
       "active": true,
@@ -29,6 +31,7 @@
     }, 
     { 
      "user": "fergus@delaney.ie",
+     "profile": "student",
 	  "firstName": "Fergus",
 	  "lastName": "Delaney",
       "active": true,
