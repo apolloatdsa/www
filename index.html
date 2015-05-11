@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="transition-navbar-scroll top-navbar-xlarge bottom-footer" lang="en">
+<html  class="transition-navbar-scroll top-navbar-xlarge bottom-footer" lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -45,7 +45,7 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 </head>
-<body>
+<body ng-app="dataApp" ng-controller="dataController" >
     <!-- Fixed navbar -->
     <div class="navbar navbar-default navbar-fixed-top navbar-size-large navbar-size-xlarge paper-shadow" data-z="0" data-animated role="navigation">
         <div class="container">
@@ -165,9 +165,9 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
                 <div class="navbar-right">
                     <ul class="nav navbar-nav navbar-nav-bordered navbar-nav-margin-right">
                         <!-- user -->
-                        <li class="dropdown user">
+                        <li id="user_in_nav" class="dropdown user hide">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <img src="images/people/110/guy-6.jpg" alt="" class="img-circle" /> Bill<span class="caret"></span>
+                                <img src="images/people/110/guy-6.jpg" alt="" class="img-circle" /> Logged in user<span class="caret"></span>
                             </a>
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="website-student-dashboard.html"><i class="fa fa-bar-chart-o"></i> Dashboard</a></li>
@@ -190,7 +190,7 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
             <div class="v-center">
                 <div class="page-section overlay-bg-white-strong relative paper-shadow" data-z="1">
                     <h1 class="text-display-2 margin-v-0-15 display-inline-block">Training for the hospitality sector</h1>
-                    <p class="text-subhead">Professionally Developed Web-Based Training Course Libraries</p>
+                    <p class="text-subhead">Professionally Developed Web-Based Training Course Libraries.</p>
                     <p class="text-subhead">Automated training for staff in the hospitality business. Track staff progress as they learn through videos and quizzes.</p>
                     <a class="btn btn-green-500 btn-lg paper-shadow" data-hover-z="2" data-animated data-toggle="modal" href="#modal-overlay-signup">Sign Up From- &euro;19.99/mo</a>
                 </div>
@@ -844,7 +844,8 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
     <script src="js/vendor-player.min.js"></script>
     <script src="js/vendor-charts-flot.min.js"></script>
     <script src="js/vendor-nestable.min.js"></script>
-    <!-- <script src="js/vendor-angular.min.js"></script> -->
+    <script src="js/angular.min.js"></script>
+    <!--<script src="js/vendor-angular.min.js"></script> -->
     <!-- Compressed Vendor Scripts Bundle
     Includes all of the 3rd party JavaScript libraries above.
     The bundle was generated using modern frontend development tools that are provided with the package

@@ -1,0 +1,42 @@
+{
+  "data": [
+    {
+      "user": "tom@delaney.ie",
+	  "firstName": "Tom",
+	  "lastName": "Delaney",
+      "active": true,
+	  "subscribed": false,
+	  "paid": true,
+	  "occupation": "Chef",
+	  "company": "Brother Hubbard",
+	  "management": false,
+	  "date_joined" : "Apr 20, 2015"
+	  
+    },
+    {
+     "user": "noel@delaney.ie",
+	  "firstName": "Noel",
+	  "lastName": "Delaney",
+      "active": true,
+	  "subscribed": false,
+	  "paid": true,
+	  "occupation": "Waiter",
+	  "company": "Sister Hubbard",
+	  "management": false,
+	  "date_joined" : "Apr 23, 2015"
+    }, 
+    { 
+     "user": "fergus@delaney.ie",
+	  "firstName": "Fergus",
+	  "lastName": "Delaney",
+      "active": true,
+	  "subscribed": false,
+	  "paid": true,
+	  "occupation": "Cleaner",
+	  "company": "Brother Hubbard",
+	  "management": false,
+	  "date_joined" : "Apr 10, 2015"
+    }
+    
+  	]
+}
